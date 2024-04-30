@@ -55,6 +55,8 @@ dependencies {
     implementation(libs.kotlin.coroutine)
     testImplementation(libs.kotlin.coroutine.test)
 
+    implementation(libs.kotlin.viewmodel)
+
     implementation(libs.glide)
 
     testImplementation(libs.mockwebserver)

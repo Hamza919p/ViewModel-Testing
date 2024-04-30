@@ -17,6 +17,7 @@ mockito-core = "5.7.0"
 mockwebserver = "4.12.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+viewModel = "2.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,6 +30,9 @@ material = { group = "com.google.android.material", name = "material", version.r
 #coroutines
 kotlin-coroutine = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine" }
 kotlin-coroutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutine" }
+
+#viewmodel
+kotlin-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "viewModel" }
 
 #network calling
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
